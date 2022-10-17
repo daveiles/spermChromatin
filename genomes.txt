@@ -1,2 +1,2 @@
 genome hg38
-trackDb trackDb.txt
+trackDb https://github.com/daveiles/spermChromatin/blob/main/trackDb.txt
