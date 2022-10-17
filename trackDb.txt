@@ -1,11 +1,56 @@
-track MNase_BC
-shortLabel MNase_BC
-longLabel MNase nucleosome SE DNA-seq BC-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_treat_merged_noBL_noAltM_12Feb21_scaled.bw
+track SRDHS-accessible_pileup
+shortLabel SRDHS-accessible
+longLabel SRDHS-accessible PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalos_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
 maxHeightPixels 100:30:10
 viewLimits 0:5000
 visibility full
+alwaysZero on
+autoScale on
+color 0,110,110
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track SRDH-accessible_pileup
+shortLabel SRDH-accessible
+longLabel SRDH-accessible PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalos_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility full
+alwaysZero on
+autoScale on
+color 20,120,170
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track SRDL-accessible_pileup
+shortLabel SRDL-accessible
+longLabel SRDL-accessible PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalos_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility full
+alwaysZero on
+autoScale on
+color 197,0,58
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track MNaseI_pileup
+shortLabel MNaseI_pileup
+longLabel MNaseI SE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
 alwaysZero on
 autoScale on
 color 122,1,119 
@@ -13,14 +58,14 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track MNase_150nt_RO
-shortLabel MNase_150nt_RO
-longLabel MNase SE DNA-seq RO-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_merged_noBL_noAltM_15Feb21_scaled.bw
+track MNaseII_pileup
+shortLabel MNaseII_pileup
+longLabel MNaseII SE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
 maxHeightPixels 100:30:10
 viewLimits 0:5000
-visibility full
+visibility hide
 alwaysZero on
 autoScale on
 color 8,69,148
@@ -28,29 +73,59 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track MNase_US_PE
-shortLabel MNase_US_PE
-longLabel MNase nucleosome PE DNA-seq US-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/US-MNase_noDups_noBL_noAltM_16Feb21_scaled.bw
+track SRDHS-resistant_pileup
+shortLabel SRDHS-res
+longLabel SRDHS-resistant PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
 maxHeightPixels 100:30:10
 viewLimits 0:5000
-visibility full
+visibility hide
 alwaysZero on
 autoScale on
-color 140,45,4 
+color 0,0,70
 graphTypeDefault bar 
 windowingFunction maximum 
 smoothingWindow off
 
-track 0.65M-NaCl_RO
-shortLabel 0.65M-NaCl_RO
-longLabel 0.65M NaCl fraction SE DNA-seq RO-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-NaCl_merged_noBL_noAltM_15Feb21_scaled.bw
+track SRDH-resistant_pileup
+shortLabel SRDH-res
+longLabel SRDH-resistant PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
 maxHeightPixels 100:30:10
 viewLimits 0:5000
-visibility full
+visibility hide
+alwaysZero on
+autoScale on
+color 0,0,70
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track SRDL-resistant_pileup
+shortLabel SRDL-res
+longLabel SRDL-resistant PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 0,0,70
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track SRDLII-resistant_pileup
+shortLabel SRDLII-res
+longLabel SRDLII-resistant SE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-salt_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
 alwaysZero on
 autoScale on
 color 12,44,132
@@ -58,253 +133,98 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track lowSaltHalo
-shortLabel lowSaltHalo_DM
-longLabel lowSaltHalo PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSaltHalos_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 177,0,38
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track lowSaltNucloid
-shortLabel lowSaltNucl_DM
-longLabel lowSaltNucloid PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSaltPellets_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 0,0,34
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track haloSpermHalo
-shortLabel haloSpermHalo_DM
-longLabel haloSpermHalo PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSpermHalos_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 0,90,50
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track haloSperMNucloid
-shortLabel haloSperMNucl_DM
-longLabel haloSperMNucloid PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSpermPellets_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 0,0,34
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track highSaltHalo
-shortLabel highSaltHalo_DM
-longLabel highSaltHalo PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSaltHalos_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 3,78,123
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track highSaltNucloid
-shortLabel highSaltNucloid_DM
-longLabel highSaltNucloid PE DNA-seq DM-lab
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSaltPellets_merged_noBL_noAltM_13Mar21_scaled.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 0,0,34
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track MNase_MACS2_BC
-shortLabel MNase_MACS2_BC
-longLabel BC-lab MACS2 peaks nucleosomes
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_MACS2_10Apr21.bb
-type bigBed 9 +
+track SRDHS-acc_MACS3_broadPeaks
+shortLabel SRDHS-acc.peaks
+longLabel SRDHS accessible MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalos_09Sep21.bb
+type bigBed
 visibility dense
+color 0,110,110
+
+track SRDH-acc_MACS3_broadPeaks
+shortLabel SRDH-acc.peaks
+longLabel SRDH accessible MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalos_09Sep21.bb
+type bigBed
+visibility dense
+color 20,120,170
+
+track SRDL-acc_MACS3_broadPeaks
+shortLabel SRDL-acc.peaks
+longLabel SRDL accessible MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalos_09Sep21.bb
+type bigBed
+visibility dense
+color 197,0,58
+
+track H3K4me3_MACS3_broadPeaks
+shortLabel H3K4me3
+longLabel H3K4me3 MACS3 boadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K4Me3_macs3_peaks.bb
+type bigBed
+visibility dense
+color 180,10,180
+
+track H3K27me3_MACS3_broadPeaks
+shortLabel H3K27me3
+longLabel H3K27me3 MACS3 boadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K27me3_macs3_peaks.bb
+type bigBed
+visibility dense
+color 102,205,170
+
+track MNase_merged_MACS3_broadPeaks
+shortLabel MNase.merged
+longLabel MNase_merged MACS3 boadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase.merged.bb
+type bigBed
+visibility hide
+color 140,10,140
+
+track MNaseI_MACS3_broadPeaks
+shortLabel MNaseI
+longLabel MNaseI MACS3 boadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_09Sep21.bb
+type bigBed
+visibility hide
 color 122,1,119
 
-track MNase_MACS2_RO
-shortLabel MNase_MACS2_RO
-longLabel RO-lab MACS2 peaks nucleosomes 150nt fraction
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
+track MNaseII_MACS3_broadPeaks
+shortLabel MNaseII
+longLabel MNaseII MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_09Sep21.bb
+type bigBed
+visibility hide
 color 8,69,148
 
-track MNase_MACS2_US
-shortLabel MNase_MACS2_US
-longLabel US-lab MACS2 peaks nucleosomes
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/US-MNase_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 140,45,4
+track SRDHS-resistant_MACS3_broadPeaks
+shortLabel SRDHS-resistant
+longLabel SRDHS resistant 
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_09Sep21.bb
+type bigBed
+visibility hide
+color 0,0,34
 
-track HSP_halo_MACS2_DM
-shortLabel HSP_halo_MACS2_DM
-longLabel DM-lab MACS2 peaks haloSperm halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSperm_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 0,90,50
+track SRDH-resistant_MACS3_broadPeaks
+shortLabel SRDH_resistant
+longLabel SRDH resistant MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_09Sep21.bb
+type bigBed
+visibility hide
+color 0,0,34
 
-track HS_halo_MACS2_DM
-shortLabel HS_halo_MACS2_DM
-longLabel DM-lab MACS2 peaks highSalt halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSalt_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 3,78,123
+track SRDL-resistant_MACS3_broadPeaks
+shortLabel SRDL-resistant
+longLabel SRDL resistant MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_09Sep21.bb
+type bigBed
+visibility hide
+color 0,0,34
 
-track LS_halo_MACS2_DM
-shortLabel LS_halo_MACS2_DM
-longLabel DM-lab MACS2 peaks lowSalt halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSalt_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 177,0,38
-
-track 0.65M-NaCl_MACS2_RO
-shortLabel 0.65M-NaCl_MACS2_RO
-longLabel RO-lab MACS2 peaks 0.65M NaCl fraction
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-lowSalt_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
+track SRDLII-resistant_MACS3_broadPeaks
+shortLabel SRDLII-resistant
+longLabel SRDLII resistant MACS3 broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-salt_09Sep21.bb
+type bigBed
+visibility hide
 color 12,44,132
-
-track ls_MACS2_nucloid
-shortLabel ls_MACS2_nucloid
-longLabel DM-lab MACS2 peaks lowSalt nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSaltR_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 0,0,34
-
-track hsp_MACS2_nucloid
-shortLabel hsp_MACS2_nucloid
-longLabel DM-lab MACS2 peaks haloSperm nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSpermR_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 0,0,34
-
-track hs_MACS2_nucloid
-shortLabel hs_MACS2_nucloid
-longLabel DM-lab MACS2 peaks highSalt nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSaltR_MACS2_10Apr21.bb
-type bigBed 9 +
-visibility dense
-color 0,0,34
-
-track MNase_epic2_BC
-shortLabel MNase_epic2_BC
-longLabel BC-lab epic2 peaks nucleosomes
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track MNase_epic2_US
-shortLabel MNase_epic2_US
-longLabel US-lab epic2 peaks nucleosomes
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/US-MNase_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track 150nt_epic2_RO
-shortLabel 150nt_epic2_RO
-longLabel RO-lab epic2 peaks MNase 150nt fraction
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track 0.65M_NaCl_epic2_RO
-shortLabel 0.65M_NaCl_epic2_RO
-longLabel RO-lab epic2 peaks 0.65M NaCl fraction
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-lowSalt_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track hsp_halo_epic2_DM
-shortLabel hsp_halo_epic2_DM
-longLabel DM-lab epic2 peaks haloSperm halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSperm_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track hsp_nucloid_epic2_DM
-shortLabel hsp_nucloid_epic2_DM
-longLabel DM-lab epic2 peaks haloSperm nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-haloSpermR_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track hs_halo_epic2_DM
-shortLabel hs_halo_epic2_DM
-longLabel DM-lab epic2 peaks highSalt halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSalt_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track hs_nucloid_epic2_DM
-shortLabel hs_nucloid_epic2_DM
-longLabel DM-lab epic2 peaks highSalt nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-highSaltR_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track ls_halo_epic2_DM
-shortLabel ls_halo_epic2_DM
-longLabel DM-lab epic2 lowSalt halo
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSalt_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
-track ls_nucloid_epic2_DM
-shortLabel ls_nucloid_epic2_DM
-longLabel DM-lab epic2 peaks lowSalt nucloid
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lowSaltR_epic2_11Apr21.bb
-type bigBed 6 +
-visibility dense
-color 100,100,100
-
