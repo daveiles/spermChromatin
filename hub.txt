@@ -3,4 +3,4 @@ shortLabel human sperm DNA-seq
 longLabel DNA-seq on soluble and insoluble human sperm chromatin
 genomesFile genomes.txt
 email daveiles@omicsltd.com
-descriptionUrl
+descriptionUrl https://s3.eu-west-2.amazonaws.com/omicsltd.sp.dna.seq/Sperm_DNA-seq_UCSC_track_description.html
