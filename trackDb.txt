@@ -175,7 +175,7 @@ color 102,205,170
 
 track MNase_merged_MACS3_broadPeaks
 shortLabel MNase.merged.peaks
-longLabel MNase_merged MACS3 boadPeaks
+longLabel MNase-merged MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase.merged.bb
 type bigBed
 visibility dense
@@ -183,7 +183,7 @@ color 140,10,140
 
 track MNaseI_MACS3_broadPeaks
 shortLabel MNaseI.peaks
-longLabel MNaseI MACS3 boadPeaks
+longLabel MNaseI MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_09Sep21.bb
 type bigBed
 visibility hide
@@ -199,15 +199,15 @@ color 8,69,148
 
 track SRDHS-resistant_MACS3_broadPeaks
 shortLabel SRDHS-resistant_peaks
-longLabel SRDHS resistant broadPeaks
+longLabel SRDHS-resistant broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_09Sep21.bb
 type bigBed
 visibility hide
 color 0,0,34
 
 track SRDH-resistant_MACS3_broadPeaks
-shortLabel SRDH_resistant_peaks
-longLabel SRDH resistant MACS3 broadPeaks
+shortLabel SRDH-resistant_peaks
+longLabel SRDH-resistant MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_09Sep21.bb
 type bigBed
 visibility hide
