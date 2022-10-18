@@ -162,7 +162,7 @@ shortLabel H3K4me3
 longLabel H3K4me3 MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K4Me3_macs3_peaks.bb
 type bigBed
-visibility dense
+visibility hide
 color 180,10,180
 
 track H3K27me3_MACS3_broadPeaks
@@ -170,7 +170,7 @@ shortLabel H3K27me3
 longLabel H3K27me3 MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K27me3_macs3_peaks.bb
 type bigBed
-visibility dense
+visibility hide
 color 102,205,170
 
 track MNase_merged_MACS3_broadPeaks
@@ -178,7 +178,7 @@ shortLabel MNase.merged
 longLabel MNase_merged MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase.merged.bb
 type bigBed
-visibility hide
+visibility dense
 color 140,10,140
 
 track MNaseI_MACS3_broadPeaks
