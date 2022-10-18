@@ -1,5 +1,5 @@
 track SRDHS-accessible_pileup
-shortLabel SRDHS-accessible
+shortLabel SRDHS-accessible_bw
 longLabel SRDHS-accessible PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalos_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -14,7 +14,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDH-accessible_pileup
-shortLabel SRDH-accessible
+shortLabel SRDH-accessible_bw
 longLabel SRDH-accessible PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalos_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -29,7 +29,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDL-accessible_pileup
-shortLabel SRDL-accessible
+shortLabel SRDL-accessible_bw
 longLabel SRDL-accessible PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalos_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -44,7 +44,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track MNaseI_pileup
-shortLabel MNaseI_pileup
+shortLabel MNaseI_pileup_bw
 longLabel MNaseI SE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -59,7 +59,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track MNaseII_pileup
-shortLabel MNaseII_pileup
+shortLabel MNaseII_pileup_bw
 longLabel MNaseII SE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -74,7 +74,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDHS-resistant_pileup
-shortLabel SRDHS-res
+shortLabel SRDHS-resistant_bw
 longLabel SRDHS-resistant PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -89,7 +89,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDH-resistant_pileup
-shortLabel SRDH-res
+shortLabel SRDH-resistant_bw
 longLabel SRDH-resistant PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -104,7 +104,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDL-resistant_pileup
-shortLabel SRDL-res
+shortLabel SRDL-resistant_bw
 longLabel SRDL-resistant PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -119,7 +119,7 @@ windowingFunction maximum
 smoothingWindow off
 
 track SRDLII-resistant_pileup
-shortLabel SRDLII-res
+shortLabel SRDLII-resistant_bw
 longLabel SRDLII-resistant SE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-salt_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
@@ -158,7 +158,7 @@ visibility dense
 color 197,0,58
 
 track H3K4me3_MACS3_broadPeaks
-shortLabel H3K4me3
+shortLabel H3K4me3.peaks
 longLabel H3K4me3 MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K4Me3_macs3_peaks.bb
 type bigBed
@@ -166,7 +166,7 @@ visibility hide
 color 180,10,180
 
 track H3K27me3_MACS3_broadPeaks
-shortLabel H3K27me3
+shortLabel H3K27me3.peaks
 longLabel H3K27me3 MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K27me3_macs3_peaks.bb
 type bigBed
@@ -174,7 +174,7 @@ visibility hide
 color 102,205,170
 
 track MNase_merged_MACS3_broadPeaks
-shortLabel MNase.merged
+shortLabel MNase.merged.peaks
 longLabel MNase_merged MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase.merged.bb
 type bigBed
@@ -182,7 +182,7 @@ visibility dense
 color 140,10,140
 
 track MNaseI_MACS3_broadPeaks
-shortLabel MNaseI
+shortLabel MNaseI.peaks
 longLabel MNaseI MACS3 boadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/BC-MNase_09Sep21.bb
 type bigBed
@@ -190,7 +190,7 @@ visibility hide
 color 122,1,119
 
 track MNaseII_MACS3_broadPeaks
-shortLabel MNaseII
+shortLabel MNaseII.peaks
 longLabel MNaseII MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-MNase_09Sep21.bb
 type bigBed
@@ -198,15 +198,15 @@ visibility hide
 color 8,69,148
 
 track SRDHS-resistant_MACS3_broadPeaks
-shortLabel SRDHS-resistant
-longLabel SRDHS resistant 
+shortLabel SRDHS-resistant_peaks
+longLabel SRDHS resistant broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_09Sep21.bb
 type bigBed
 visibility hide
 color 0,0,34
 
 track SRDH-resistant_MACS3_broadPeaks
-shortLabel SRDH_resistant
+shortLabel SRDH_resistant_peaks
 longLabel SRDH resistant MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_09Sep21.bb
 type bigBed
@@ -214,7 +214,7 @@ visibility hide
 color 0,0,34
 
 track SRDL-resistant_MACS3_broadPeaks
-shortLabel SRDL-resistant
+shortLabel SRDL-resistant_peaks
 longLabel SRDL resistant MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_09Sep21.bb
 type bigBed
@@ -222,7 +222,7 @@ visibility hide
 color 0,0,34
 
 track SRDLII-resistant_MACS3_broadPeaks
-shortLabel SRDLII-resistant
+shortLabel SRDLII-resistant_peaks
 longLabel SRDLII resistant MACS3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/RO-salt_09Sep21.bb
 type bigBed
