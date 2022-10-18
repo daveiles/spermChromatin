@@ -1,6 +1,6 @@
 hub hg38spermChromatinHub
 shortLabel human sperm DNA-seq
 longLabel DNA-seq on soluble and insoluble human sperm chromatin
-genomesFile ./genomes.txt
+genomesFile genomes.txt
 email daveiles@omicsltd.com
 descriptionUrl
