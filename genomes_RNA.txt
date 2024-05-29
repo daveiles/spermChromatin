@@ -1,0 +1,2 @@
+genome hg38
+trackDb https://raw.githubusercontent.com/daveiles/spermChromatin/main/trackDb_RNA.txt
