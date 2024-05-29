@@ -1,0 +1,119 @@
+track MIIa
+shortLabel MII_group1
+longLabel MII RNA-seq 1
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MIIa.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility full
+alwaysZero on
+autoScale on
+color 255,0,153
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track MIIb
+shortLabel MII_group2
+longLabel MII RNA-seq 2
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MIIb.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility full
+alwaysZero on
+autoScale on
+color 255,0,204
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track SP
+shortLabel sperm
+longLabel sperm RNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SP.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility full
+alwaysZero on
+autoScale on
+color 51,51,204
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track PNZ
+shortLabel PNZ
+longLabel pronucleus RNA-seq 1
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/PNZ.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 153,102,255 
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track PN
+shortLabel PN
+longLabel pronucleus RNA-seq 2
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 153,102,204
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track ZYG
+shortLabel ZYG
+longLabel zygote RNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/ZYG.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 153,51,204
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track C2
+shortLabel 2-cell
+longLabel two cell RNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/C2.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 153,0,204
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track ICM
+shortLabel ICM
+longLabel inner cell mass RNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/ICM.merged_scaled.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 204,0,102
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off

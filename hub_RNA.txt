@@ -1,0 +1,7 @@
+hub hg38spermChromatinHub
+shortLabel human sperm DNA-seq
+longLabel DNA-seq on soluble and insoluble human sperm chromatin
+genomesFile https://raw.githubusercontent.com/daveiles/spermChromatin/main/genomes.txt
+email daveiles@omicsltd.com
+descriptionUrl https://s3.eu-west-2.amazonaws.com/omicsltd.sp.dna.seq/Sperm_DNA-seq_UCSC_track_description.html
+
