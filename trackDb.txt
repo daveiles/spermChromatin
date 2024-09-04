@@ -129,7 +129,7 @@ color 197,0,58
  
 track H3K4me3_broadPeaks
 shortLabel H3K4me3_peaks
-longLabel H3K4me3 boadPeaks
+longLabel H3K4me3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K4Me3_macs3_peaks.bb
 type bigBed
 visibility hide
@@ -137,7 +137,7 @@ color 180,10,180
 
 track H3K27me3_broadPeaks
 shortLabel H3K27me3_peaks
-longLabel H3K27me3 boadPeaks
+longLabel H3K27me3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K27me3_macs3_peaks.bb
 type bigBed
 visibility hide
