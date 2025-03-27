@@ -58,6 +58,21 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
+track nucleosomes_pileup
+shortLabel nucleosomes_bw
+longLabel nucleosomes SE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/nucleosomes.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 90,1,90 
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
 track SRDHS-R_pileup
 shortLabel SRDHS-R_bw
 longLabel SRDHS-R PE DNA-seq
@@ -103,7 +118,7 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track SRDHS-acc_consensus_peaks
+track SRDHS_consensus_peaks
 shortLabel SRDHS_peaks
 longLabel SRDHS consensus peaks
 bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDHS_24Apr24.bb
@@ -150,6 +165,14 @@ bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/M
 type bigBed
 visibility dense
 color 140,10,140
+
+track nucleosome_peaks
+shortLabel nucleosomes
+longLabel nucleosomes
+bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/nucleosomes.bb
+type bigBed
+visibility dense
+color 90,1,90
 
 track SRDHS-resistant_consensus_peaks
 shortLabel SRDHS-R_peaks
