@@ -1,36 +1,6 @@
-track SRDHS_pileup
-shortLabel SRDHS_bw
-longLabel SRDHS PE DNA-seq
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalos_macs3_07Sep21_treat_pileup.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 0,110,110
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track SRDH_pileup
-shortLabel SRDH_bw
-longLabel SRDH PE DNA-seq
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalos_macs3_07Sep21_treat_pileup.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility full
-alwaysZero on
-autoScale on
-color 20,120,170
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track SRDL_pileup
-shortLabel SRDL_bw
-longLabel SRDL PE DNA-seq
+track halo_pileup
+shortLabel halo_bw
+longLabel halo PE DNA-seq
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalos_macs3_07Sep21_treat_pileup.bw
 type bigWig 0 10000
 maxHeightPixels 100:30:10
@@ -39,6 +9,21 @@ visibility full
 alwaysZero on
 autoScale on
 color 197,0,58
+graphTypeDefault bar 
+windowingFunction maximum 
+smoothingWindow off
+
+track nucleoid_pileup
+shortLabel nucleoid_bw
+longLabel nucleoid PE DNA-seq
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_macs3_07Sep21_treat_pileup.bw
+type bigWig 0 10000
+maxHeightPixels 100:30:10
+viewLimits 0:5000
+visibility hide
+alwaysZero on
+autoScale on
+color 0,0,70
 graphTypeDefault bar 
 windowingFunction maximum 
 smoothingWindow off
@@ -73,71 +58,10 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track SRDHS-R_pileup
-shortLabel SRDHS-R_bw
-longLabel SRDHS-R PE DNA-seq
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hspHalosR_macs3_07Sep21_treat_pileup.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility hide
-alwaysZero on
-autoScale on
-color 0,0,70
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track SRDH-R_pileup
-shortLabel SRDH-R_bw
-longLabel SRDH-resistant PE DNA-seq
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-hsHalosR_macs3_07Sep21_treat_pileup.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility hide
-alwaysZero on
-autoScale on
-color 0,0,70
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track SRDL-R_pileup
-shortLabel SRDL-R_bw
-longLabel SRDL-R PE DNA-seq
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/DM-lsHalosR_macs3_07Sep21_treat_pileup.bw
-type bigWig 0 10000
-maxHeightPixels 100:30:10
-viewLimits 0:5000
-visibility hide
-alwaysZero on
-autoScale on
-color 0,0,70
-graphTypeDefault bar 
-windowingFunction maximum 
-smoothingWindow off
-
-track SRDHS_consensus_peaks
-shortLabel SRDHS_peaks
-longLabel SRDHS consensus peaks
-bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDHS_24Apr24.bb
-type bigBed
-visibility dense
-color 0,110,110
-
-track SRDH_consensus_peaks
-shortLabel SRDH_peaks
-longLabel SRDH consensus peaks
-bigDataUrl  https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDH_24Apr24.bb
-type bigBed
-visibility dense
-color 20,120,170
-
-track SRDL_consensus_peaks
-shortLabel SRDL_peaks
-longLabel SRDL consensus peaks
-bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDL_24Apr24.bb
+track halo_consensus_peaks
+shortLabel halo_peaks
+longLabel halo consensus peaks
+bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/halo_24Apr24.bb
 type bigBed
 visibility dense
 color 197,0,58
@@ -174,26 +98,10 @@ type bigBed
 visibility dense
 color 90,1,90
 
-track SRDHS-resistant_consensus_peaks
-shortLabel SRDHS-R_peaks
-longLabel SRDHS resistant broadPeaks
-bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDHS-R_24Apr24.bb
-type bigBed
-visibility hide
-color 0,0,34
-
-track SRDH-resistant_consensus_peaks
-shortLabel SRDH_R_peaks
-longLabel SRDH resistant broadPeaks
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDH-R_24Apr24.bb
-type bigBed
-visibility hide
-color 0,0,34
-
-track SRDL-resistant_consensus_peaks
-shortLabel SRDL-R_peaks
-longLabel SRDL resistant broadPeaks
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDL-R_24Apr24.bb
+track nucleoid_consensus_peaks
+shortLabel nucleoid_peaks
+longLabel halo resistant broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/nucleoid_24Apr24.bb
 type bigBed
 visibility hide
 color 0,0,34
