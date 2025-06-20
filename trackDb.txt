@@ -61,11 +61,27 @@ smoothingWindow off
 track halo_consensus_peaks
 shortLabel halo_peaks
 longLabel halo consensus peaks
-bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/halo_24Apr24.bb
+bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDL_24Apr24.bb
 type bigBed
 visibility dense
 color 197,0,58
  
+track nucleoid_consensus_peaks
+shortLabel nucleoid_peaks
+longLabel halo resistant broadPeaks
+bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/SRDL-R_24Apr24.bb
+type bigBed
+visibility hide
+color 0,0,34
+
+track MNase_consensus_peaks
+shortLabel MNase_peaks
+longLabel MNase consensus peaks
+bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase_24Apr24.bb
+type bigBed
+visibility dense
+color 140,10,140
+
 track H3K4me3_broadPeaks
 shortLabel H3K4me3_peaks
 longLabel H3K4me3 broadPeaks
@@ -82,14 +98,6 @@ type bigBed
 visibility hide
 color 102,205,170
 
-track MNase_consensus_peaks
-shortLabel MNase_peaks
-longLabel MNase consensus peaks
-bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase_24Apr24.bb
-type bigBed
-visibility dense
-color 140,10,140
-
 track nucleosome_peaks
 shortLabel nucleosomes
 longLabel nucleosomes
@@ -98,11 +106,4 @@ type bigBed
 visibility dense
 color 90,1,90
 
-track nucleoid_consensus_peaks
-shortLabel nucleoid_peaks
-longLabel halo resistant broadPeaks
-bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/nucleoid_24Apr24.bb
-type bigBed
-visibility hide
-color 0,0,34
 
