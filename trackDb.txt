@@ -28,25 +28,25 @@ graphTypeDefault bar
 windowingFunction maximum 
 smoothingWindow off
 
-track halo_consensus_peaks
-shortLabel halo_peaks
-longLabel halo consensus peaks
+track halo_consensus_broadPeaks
+shortLabel halo_PCEs
+longLabel halo consensus PCEs
 bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/halo_08Aug25.bb
 type bigBed
 visibility dense
 color 197,0,58
  
-track nucleoid_consensus_peaks
-shortLabel nucleoid_peaks
-longLabel halo resistant broadPeaks
+track nucleoid_consensus_broadPeaks
+shortLabel nucleoid_PCEs
+longLabel halo resistant PCEs
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/nucleoid_08Aug25.bb
 type bigBed
 visibility hide
 color 0,0,34
 
-track MNase_consensus_peaks
-shortLabel MNase_peaks
-longLabel MNase consensus peaks
+track MNase_consensus_broadPeaks
+shortLabel MNase_PCEs
+longLabel MNase consensus PCEs
 bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/MNase_08Aug25.bb
 type bigBed
 visibility dense
@@ -61,7 +61,7 @@ visibility hide
 color 180,10,180
 
 track H3K27me3_broadPeaks
-shortLabel H3K27me3_peaks
+shortLabel H3K27me3
 longLabel H3K27me3 broadPeaks
 bigDataUrl https://s3-eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H3K27me3_08Aug25.bb
 type bigBed
@@ -70,7 +70,7 @@ color 102,205,170
 
 track H4K20me3_broadPeaks
 shortLabel H4K20me3
-longLabel H4K20me3
+longLabel H4K20me3 broadPeaks
 bigDataUrl https://s3.eu-west-1.amazonaws.com/omicsltd.millerstudents/Adel/hub/H4K20me3_08Aug25.bb
 type bigBed
 visibility dense
